@@ -42,11 +42,11 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-flow: column;
+    flex-flow: column nowrap;
 }
 
 .container {
-    width: 320px;
+    max-width: 320px;
     height: 497px;
     background-color: var(--col-bg-container);
     padding: 1rem;
